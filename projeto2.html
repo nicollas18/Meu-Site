@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício de HTML com CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Exemplo de Página Web com CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="saiba_mais">Saiba Mais</div>
+
+        <section id="inicio" style="clear: right;">
+            <h2>Bem-vindo!</h2>
+            <p>Este é um exemplo de como utilizar várias tags HTML com CSS para estilização.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <article>
+                <h3>Quem Somos</h3>
+                <p>Somos uma empresa fictícia dedicada a ensinar HTML e CSS.</p>
+            </article>
+            <article>
+                <h3>Nossa Missão</h3>
+                <p>Nossa missão é fornecer recursos de alta qualidade para aprender desenvolvimento web.</p>
+            </article>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Você pode nos contatar através dos seguintes meios:</p>
+            <ul>
+                <li>Email: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></li>
+                <li>Telefone: (11) 1234-5678</li>
+            </ul>
+            <p>Nos encontre também nas redes sociais:</p>
+            <ul>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Imagens</h2>
+            <img src="images/ico.png" alt="Imagem 1" id="img1">
+            <img src="images/ico2.png" alt="Imagem 2" id="img2">
+            <img src="images/ico3.png" alt="Imagem 3" id="img3">
+        </section>
+
+        <section id="tabela">
+            <h2>Tabela de Preços</h2>
+            <table>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>Desenvolvimento Web</td>
+                    <td>R$ 500,00</td>
+                </tr>
+                <tr>
+                    <td>Consultoria</td>
+                    <td>R$ 300,00</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="float-clear">
+            <h2>Exemplo de Float e Clear</h2>
+            <div class="float-example">
+                <img src="images/ico4.png" alt="Imagem 3">
+                <p>Este é um exemplo de uso das propriedades float e clear. A imagem está flutuando à esquerda do texto.</p>
+            </div>
+            <div class="clear-example">
+                <img src="images/ico5.png" alt="Imagem 4">
+                <p>Este texto está usando clear para garantir que a próxima seção seja corretamente alinhada abaixo do conteúdo flutuante.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Exemplo de Página Web. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
